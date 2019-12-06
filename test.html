@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            OwO
+        </title>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <h1>ID. Longitude - Latitude</h1>
+        {% for location in locationData %}
+            <li>{{location.id}}. {{location.longitude}} - {{location.latitude}}</li>
+        {% endfor %}
+    </body>
+</html>
